@@ -8,7 +8,11 @@
         color: white;
     }
 }
-  
+
+.container-top{
+    margin-top: 10pt;
+}
+
 .skills-container .skills-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
