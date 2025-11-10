@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/misheel-portfolio/static/css/main.f959de5a.css",
-    "main.js": "/misheel-portfolio/static/js/main.db7b73fd.js",
-    "static/js/453.add5245f.chunk.js": "/misheel-portfolio/static/js/453.add5245f.chunk.js",
-    "static/media/bg-light.png": "/misheel-portfolio/static/media/bg-light.bac0efb485244a522981.png",
-    "static/media/bg-dark.png": "/misheel-portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
-    "static/media/gymmanagement-groupclass.png": "/misheel-portfolio/static/media/gymmanagement-groupclass.089763f1619a428f568d.png",
-    "index.html": "/misheel-portfolio/index.html",
-    "main.f959de5a.css.map": "/misheel-portfolio/static/css/main.f959de5a.css.map",
-    "main.db7b73fd.js.map": "/misheel-portfolio/static/js/main.db7b73fd.js.map",
-    "453.add5245f.chunk.js.map": "/misheel-portfolio/static/js/453.add5245f.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.e35a24aa.css",
+    "main.js": "/portfolio/static/js/main.2ca61f1c.js",
+    "static/js/453.add5245f.chunk.js": "/portfolio/static/js/453.add5245f.chunk.js",
+    "static/media/bg-light.png": "/portfolio/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/bg-dark.png": "/portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/gymmanagement-groupclass.png": "/portfolio/static/media/gymmanagement-groupclass.089763f1619a428f568d.png",
+    "index.html": "/portfolio/index.html",
+    "main.e35a24aa.css.map": "/portfolio/static/css/main.e35a24aa.css.map",
+    "main.2ca61f1c.js.map": "/portfolio/static/js/main.2ca61f1c.js.map",
+    "453.add5245f.chunk.js.map": "/portfolio/static/js/453.add5245f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f959de5a.css",
-    "static/js/main.db7b73fd.js"
+    "static/css/main.e35a24aa.css",
+    "static/js/main.2ca61f1c.js"
   ]
 }
