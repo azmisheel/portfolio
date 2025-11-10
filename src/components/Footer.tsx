@@ -10,9 +10,9 @@ function Footer() {
       <div>
         <a href="https://github.com/azmisheel" target="_blank" rel="noreferrer"><GitHubIcon/></a>
         <a href="https://www.linkedin.com/in/misheel-azjargalbayar-762165197/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
-        <a href="/Misheel-Azjargalbayar-Resume.pdf" target="_blank" rel="noreferrer"><ArticleIcon/></a>
+         <a href={`${process.env.PUBLIC_URL}/Resume.pdf`} target="_blank" rel="noopener noreferrer"><ArticleIcon /></a>
       </div>
-      <p>Misheel Azjargalbayar 2025</p>
+      <p>Misheel Azjargalbayar {new Date().getFullYear()}</p>
     </footer>
   );
 }

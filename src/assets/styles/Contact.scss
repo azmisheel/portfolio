@@ -7,6 +7,19 @@
 .contact-form {
   padding-top: 20px;
 
+ // Add these styles for text visibility
+  .MuiInputBase-input {
+    color: black !important; // Or any color that contrasts with your background
+  }
+  
+  .MuiInputLabel-root {
+    color: rgba(0, 0, 0, 0.6) !important;
+  }
+  
+  .MuiOutlinedInput-notchedOutline {
+    border-color: rgba(0, 0, 0, 0.23) !important;
+  }
+
   button {
     float: right;
     background-color: white;
@@ -23,6 +36,8 @@
   }
 }
 
+
+
 label {
   font-size: 1.2rem;
   font-family: 'DomaineDispNar-Medium', sans-serif;
@@ -32,6 +47,8 @@ label {
   display: flex;
   gap: 15px;
   padding-bottom: 15px;
+  color: black;
+
 }
 
 .form-flex .MuiFormControl-root {

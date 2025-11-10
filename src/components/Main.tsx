@@ -13,7 +13,8 @@ function Main() {
           <div className="social_icons">
             <a href="https://github.com/azmisheel" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.linkedin.com/in/misheel-azjargalbayar-762165197/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
-            <a href="/resume.pdf" target="_blank" rel="noreferrer"><ArticleIcon/></a>
+            <a href={`${process.env.PUBLIC_URL}/Resume.pdf`} target="_blank" rel="noopener noreferrer"><ArticleIcon /></a>
+
           </div>
           <h1>Misheel Azjargalbayar</h1>
           <p>Software Developer</p>
