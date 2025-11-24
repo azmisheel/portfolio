@@ -22,6 +22,7 @@ function Main() {
           <div className="mobile_social_icons">
             <a href="https://github.com/azmisheel" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.linkedin.com/in/misheel-azjargalbayar-762165197/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+            <a href={`${process.env.PUBLIC_URL}/Resume.pdf`} target="_blank" rel="noopener noreferrer"><ArticleIcon /></a>
           </div>
         </div>
       </div>

@@ -36,6 +36,119 @@
   }
 }
 
+.contact_wrapper {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  
+  h1 {
+    color: #ffffff;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    color: #8b949e;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+  }
+}
+
+.contact-methods {
+  margin: 2rem 0;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.contact-card {
+  background: #161b22 !important;
+  border: 1px solid #30363d !important;
+  border-radius: 12px !important;
+  padding: 1.5rem !important;
+  text-transform: none !important;
+  text-align: left !important;
+  height: auto !important;
+  transition: all 0.3s ease !important;
+  
+  &:hover {
+    border-color: #58a6ff !important;
+    transform: translateY(-2px);
+    background: #1c2128 !important;
+  }
+  
+  .MuiButton-startIcon {
+    margin-right: 1rem;
+    color: #ffffff;
+  }
+}
+
+.contact-content {
+  h3 {
+    color: #e6edf3;
+    margin: 0 0 0.5rem 0;
+    font-size: 1.1rem;
+  }
+  
+  p {
+    color: #ffffff;
+    margin: 0 0 0.5rem 0;
+    font-size: 0.9rem;
+  }
+  
+  .contact-cta {
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+}
+
+.location-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  background: #0d1117;
+  border-radius: 8px;
+  border: 1px solid #21262d;
+  
+  .location-icon {
+    color: #ffffff;
+  }
+  
+  p {
+    color: #ffffff;
+    margin: 0;
+  }
+}
+
+.contact-note {
+  background: linear-gradient(135deg, #1f6feb20, #58a6ff20);
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 2rem;
+  
+  p {
+    margin: 0;
+    color: #e6edf3;
+  }
+}
+
+// Mobile responsive
+@media (max-width: 768px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .contact-card {
+    padding: 1rem !important;
+  }
+}
 
 
 label {

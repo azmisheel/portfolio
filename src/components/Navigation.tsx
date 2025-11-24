@@ -17,7 +17,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 
 const drawerWidth = 240;
-const navItems = [ ['Biography', 'personalBio'], ['Skills', 'expertise'], ['Projects', 'projects'], ['Contact', 'contact']];
+const navItems = [  ['Resume', 'resume'], ['Biography', 'personalBio'], ['Skills', 'expertise'], ['Projects', 'projects'], ['Contact', 'contact']];
 
 function Navigation({parentToChild, modeChange}: any) {
 
@@ -49,6 +49,11 @@ function Navigation({parentToChild, modeChange}: any) {
   const scrollToSection = (section: string) => {
     console.log(section)
     const expertiseElement = document.getElementById(section);
+    if (section === 'resume') {
+       window.open(`${process.env.PUBLIC_URL}/Resume.pdf`, '_blank', 'noopener,noreferrer');   // Opens PDF in a new tab
+      return;
+    }
+
     if (expertiseElement) {
       expertiseElement.scrollIntoView({ behavior: 'smooth' });
       console.log('Scrolling to:', expertiseElement);  // Debugging: Ensure the element is found
@@ -77,7 +82,7 @@ function Navigation({parentToChild, modeChange}: any) {
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
       <AppBar component="nav" id="navigation" className={`navbar-fixed-top${scrolled ? ' scrolled' : ''}`}>
-        <Toolbar className='navigation-bar'>
+        <Toolbar className='navigation-bar' sx={{ justifyContent: 'flex-end' }}>
           <IconButton
             color="inherit"
             aria-label="open drawer"
@@ -87,11 +92,14 @@ function Navigation({parentToChild, modeChange}: any) {
           >
             <MenuIcon />
           </IconButton>
+          {/* HIDE THEME TOGGLE FOR NOW - UNCOMMENT LATER */}
+          {/*
           {mode === 'dark' ? (
             <LightModeIcon onClick={() => modeChange()}/>
           ) : (
             <DarkModeIcon onClick={() => modeChange()}/>
           )}
+          */}
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (
               <Button key={item[0]} onClick={() => scrollToSection(item[1])} sx={{ color: '#fff' }}>

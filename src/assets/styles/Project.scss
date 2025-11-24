@@ -10,6 +10,141 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px;
 }
+
+// Image Gallery Styles
+.image-gallery {
+  position: relative;
+  margin-bottom: 1.5rem;
+  
+  .main-image {
+    img {
+      width: 100%;
+      max-height: 400px;
+      object-fit: contain;
+      border-radius: 8px;
+      border: 1px solid #30363d;
+    }
+  }
+  
+  .thumbnails {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    
+    .thumbnail {
+      width: 60px;
+      height: 60px;
+      border: 2px solid transparent;
+      border-radius: 4px;
+      overflow: hidden;
+      cursor: pointer;
+      background: none;
+      padding: 0;
+      
+      &.active {
+        border-color: #58a6ff;
+      }
+      
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      
+      &:hover {
+        border-color: #58a6ff;
+        opacity: 0.8;
+      }
+    }
+  }
+
+  .nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.7);
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    &.prev { 
+      left: 10px; 
+    }
+    &.next { 
+      right: 10px; 
+    }
+    
+    &:hover {
+      background: rgba(88, 166, 255, 0.8);
+    }
+  }
+
+  .image-counter {
+    text-align: center;
+    margin-top: 0.5rem;
+    color: #8b949e;
+    font-size: 0.875rem;
+  }
+}
+
+// Project grid styling - UPDATED
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.project {
+  background: #161b22;
+  border-radius: 8px;
+  padding: 1.5rem;
+  border: 1px solid #30363d;
+  transition: transform 0.2s ease;
+  display: flex; // ADD THIS
+  flex-direction: column; // ADD THIS
+  min-height: 450px; // ADD THIS for consistent height
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  .MuiButtonBase-root {
+    pointer-events: auto;
+  }
+}
+
+.clickable-card {
+  transition: transform 0.2s ease;
+  flex-grow: 1; // ADD THIS - makes it fill available space
+  display: flex; // ADD THIS
+  flex-direction: column; // ADD THIS
+  
+  &:hover {
+    transform: translateY(-2px);
+  }
+}
+
+// pushes button to bottom
+.project-buttons {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  
+  button {
+    width: 100%; // Full width button
+  }
+}
   
 .projects-container .projects-grid .project {
     text-align: left;
@@ -44,6 +179,7 @@
       
         .projects-container .projects-grid .project {
             padding-bottom: 5%;
+            min-height: 400px; // Slightly smaller on mobile
         }
     }
 }

@@ -13,6 +13,7 @@ const labelsFirst = [
     "Python",
     "TypeScript",
     "Java",
+    "Git"
 ];
 
 const labelsSecond = [
