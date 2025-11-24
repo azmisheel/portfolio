@@ -1,18 +1,41 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e35a24aa.css",
-    "main.js": "/portfolio/static/js/main.2ca61f1c.js",
+    "main.css": "/portfolio/static/css/main.d625f743.css",
+    "main.js": "/portfolio/static/js/main.b2899fc7.js",
     "static/js/453.add5245f.chunk.js": "/portfolio/static/js/453.add5245f.chunk.js",
+    "static/media/agalag_gameplay.png": "/portfolio/static/media/agalag_gameplay.6850ccd926223ae6b990.png",
+    "static/media/agalag_endless.png": "/portfolio/static/media/agalag_endless.4564e2ddca1202c799ce.png",
     "static/media/bg-light.png": "/portfolio/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/agalag_leader.png": "/portfolio/static/media/agalag_leader.a4a03ef6820061f2e832.png",
+    "static/media/agalag_startscreen.png": "/portfolio/static/media/agalag_startscreen.8a0ae3abc06917173e7e.png",
     "static/media/bg-dark.png": "/portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
-    "static/media/gymmanagement-groupclass.png": "/portfolio/static/media/gymmanagement-groupclass.089763f1619a428f568d.png",
+    "static/media/gymmanagement_groupclass.png": "/portfolio/static/media/gymmanagement_groupclass.e33f46ee2a41c151502a.png",
+    "static/media/Chessmatch_index.png": "/portfolio/static/media/Chessmatch_index.45a774638a1577c61851.png",
+    "static/media/gymmanagement_fitness.png": "/portfolio/static/media/gymmanagement_fitness.34f62b78f03a715cfc72.png",
+    "static/media/haver_sales.png": "/portfolio/static/media/haver_sales.8dc777c1b4d1657d6883.png",
+    "static/media/haver_export.png": "/portfolio/static/media/haver_export.c27abbe215cc036e608c.png",
+    "static/media/gymmanagement_client.png": "/portfolio/static/media/gymmanagement_client.0de5b6cdee15b4be7928.png",
+    "static/media/Chessmatch_contingents.png": "/portfolio/static/media/Chessmatch_contingents.586778e76ea99bba097c.png",
+    "static/media/Chessmatch_leaderboard.png": "/portfolio/static/media/Chessmatch_leaderboard.a38fd852035870526541.png",
+    "static/media/haver_gantt.png": "/portfolio/static/media/haver_gantt.8403282a854f63625e22.png",
+    "static/media/summergames_index.png": "/portfolio/static/media/summergames_index.52a36248ba3154708fd1.png",
+    "static/media/haver_excel.png": "/portfolio/static/media/haver_excel.52b2a6ecf43a927a4e32.png",
+    "static/media/haver_machines.png": "/portfolio/static/media/haver_machines.86c0c0b4ed9bb8aa4c66.png",
+    "static/media/gymmanagement_roles.png": "/portfolio/static/media/gymmanagement_roles.16139490c6433b878e86.png",
+    "static/media/gymmanagement_login.png": "/portfolio/static/media/gymmanagement_login.3770cebe8721f4467c87.png",
+    "static/media/haver_index.png": "/portfolio/static/media/haver_index.5c7a6043cdd183e85731.png",
+    "static/media/gymmanagement_index.png": "/portfolio/static/media/gymmanagement_index.de1ce20386f2df293706.png",
+    "static/media/lantern_stats.png": "/portfolio/static/media/lantern_stats.383135f006e45b3eb8fb.png",
+    "static/media/lantern_index.png": "/portfolio/static/media/lantern_index.268976da8a0d9f44e97f.png",
+    "static/media/lantern_gameplay.png": "/portfolio/static/media/lantern_gameplay.43c45646c4726cef4132.png",
+    "static/media/lantern_newgame.png": "/portfolio/static/media/lantern_newgame.9da960845b238ebed4af.png",
     "index.html": "/portfolio/index.html",
-    "main.e35a24aa.css.map": "/portfolio/static/css/main.e35a24aa.css.map",
-    "main.2ca61f1c.js.map": "/portfolio/static/js/main.2ca61f1c.js.map",
+    "main.d625f743.css.map": "/portfolio/static/css/main.d625f743.css.map",
+    "main.b2899fc7.js.map": "/portfolio/static/js/main.b2899fc7.js.map",
     "453.add5245f.chunk.js.map": "/portfolio/static/js/453.add5245f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e35a24aa.css",
-    "static/js/main.2ca61f1c.js"
+    "static/css/main.d625f743.css",
+    "static/js/main.b2899fc7.js"
   ]
 }
