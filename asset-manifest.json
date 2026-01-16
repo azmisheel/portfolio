@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.d625f743.css",
-    "main.js": "/portfolio/static/js/main.b2899fc7.js",
+    "main.js": "/portfolio/static/js/main.a6ae1b12.js",
     "static/js/453.add5245f.chunk.js": "/portfolio/static/js/453.add5245f.chunk.js",
     "static/media/agalag_gameplay.png": "/portfolio/static/media/agalag_gameplay.6850ccd926223ae6b990.png",
     "static/media/agalag_endless.png": "/portfolio/static/media/agalag_endless.4564e2ddca1202c799ce.png",
@@ -31,11 +31,11 @@
     "static/media/lantern_newgame.png": "/portfolio/static/media/lantern_newgame.9da960845b238ebed4af.png",
     "index.html": "/portfolio/index.html",
     "main.d625f743.css.map": "/portfolio/static/css/main.d625f743.css.map",
-    "main.b2899fc7.js.map": "/portfolio/static/js/main.b2899fc7.js.map",
+    "main.a6ae1b12.js.map": "/portfolio/static/js/main.a6ae1b12.js.map",
     "453.add5245f.chunk.js.map": "/portfolio/static/js/453.add5245f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d625f743.css",
-    "static/js/main.b2899fc7.js"
+    "static/js/main.a6ae1b12.js"
   ]
 }
